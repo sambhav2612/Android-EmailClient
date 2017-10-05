@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="io.github.sambhav2612.emailclient.MainActivity">
+
+    <TextView
+        android:id="@+id/recipent_email"
+        android:text="@string/recipent_mailer"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/enter_recipent_email"
+        android:layout_below="@id/recipent_email"
+        android:inputType="textEmailAddress|textWebEmailAddress|textAutoCorrect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_below="@id/enter_recipent_email"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_margin="5dp"
+        android:text="@string/subject_mailer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/enter_subject"
+        android:layout_below="@id/subject"
+        android:inputType="text|textAutoCorrect|textLongMessage|textCapWords|textAutoComplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_below="@id/enter_subject"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_margin="5dp"
+        android:text="@string/message_mailer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/enter_message"
+        android:layout_below="@id/message"
+        android:inputType="text|textAutoCorrect|textLongMessage|textCapWords|textAutoComplete|textMultiLine"
+        android:maxLines="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/send_mail"
+        android:layout_below="@id/enter_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="#FFF"
+        android:background="#0063FF"
+        android:text="@string/send_mail"/>
+
+</RelativeLayout>

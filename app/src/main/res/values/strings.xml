@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyEmailClient</string>
+    <string name="recipent_mailer">Recipient Email</string>
+    <string name="subject_mailer">Subject</string>
+    <string name="message_mailer">Message</string>
+    <string name="send_mail">Send</string>
+    <string name="asset_statements" translatable="false">[{\n  \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n  \"target\": {\n    \"namespace\": \"web\",\n    \"site\": \"http://sambhav2612.github.io\",\n  }\n}]</string>
+</resources>
