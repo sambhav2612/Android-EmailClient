@@ -1,0 +1,2 @@
+# Android-EmailClient
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/83040a3096cf48ca9602417ed498c74e)](https://www.codacy.com/app/sambhavjain2612/Android-EmailClient?utm_source=github.com&utm_medium=referral&utm_content=sambhav2612/Android-EmailClient&utm_campaign=badger)
